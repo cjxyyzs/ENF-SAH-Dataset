@@ -26,6 +26,7 @@ evaluated using real-world recordings from short-contaminated ENF-STH dataset.
 # Citation Information
 * ENF Enhancement
   >\[1] G. Hua and H. Zhang, "ENF Signal Enhancement in Audio Recordings," in IEEE Transactions on Information Forensics and Security, vol. 15, pp. 1868-1878, 2020, doi: 10.1109/TIFS.2019.2952264.
+  
   >\[2] G. Hua, H. Liao, H. Zhang, D. Ye and J. Ma, "Robust ENF Estimation Based on Harmonic Enhancement and Maximum Weight Clique," in IEEE Transactions on Information Forensics and Security, vol. 16, pp. 3874-3887, 2021, doi: 10.1109/TIFS.2021.3099697.
 * Related work
   
