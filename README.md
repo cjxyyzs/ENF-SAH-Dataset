@@ -23,7 +23,7 @@ in comparison with the following existing work
 * Harmonic robust filtering algorithm (HRFA) and graph-based harmonic selection algorithm (GHSA) [2],
 * Robust media time-stamping method by [S. Vatansever et al. 2022 IEEE SPL](https://ieeexplore.ieee.org/document/9882322/references#references),
 
-evaluated using real-world recordings from short-contaminated ENF-STH dataset.The following figure shows the comparison between our method and [1], [2], [3] methods.
+evaluated using real-world recordings from short-contaminated ENF-STH dataset. The following figure shows the comparison between our method and [1], [2], [3] methods.
 
 xxfigurexx
 
