@@ -16,7 +16,7 @@ This repository contains the ENF-STH short audio dataset, which was collected ar
 # Note about the Ground-Truth 
 The ground-truth matched location (the lag that corresponding to the true timestamp) within the one day reference can be obtained by matching the noise-free ref files with the corresponding one day ref. For example, we can match "ref_05.wav" in "ref_audio" folder within "3-5,23.wav" in "ref_one_day" folder, and the matched lag index is the "ground truth" timestamp for recording "05.wav" in "enf_audio" folder, meaning that "05.wav" should be matched at the same or a very close lag index in "3-5,23.wav". Both MSE and CC can be used for the matching criterion as long as the recording and ref are matched using the same criterion.It should be noted here that due to equipment reasons, some data have vertical deviations and require manual adjustment.The error caused by the device can be calculated by calculating the average vertical deviation between the extracted ENF signal and the reference signal.
 # Matlab Programs
-It contains our estimation method
+It contains our adaptive-window-based harmonic reconbination method, which is effective in short-contaminated audio.
 xxxxxxxxxxx
 in comparison with the following existing work
 * Robust filtering algorithm (RFA) [1],
