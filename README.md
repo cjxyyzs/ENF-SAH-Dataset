@@ -30,6 +30,10 @@ In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processi
 </div>
 
 
+![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/flowchart.png "Workflow of AWHR")
+
+
+
 The first step involves calculating the noise removal rate (NRR) for each harmonic to evaluate the level of noise. The primary harmonic is then determined based on the one with the lowest NRR. Next, the suitable window length for each noise area of the primary harmonic is determined, and kernel function enhancement is performed. Finally, the longest signal segment of each noise interval in the primary harmonic is searched for among other harmonics, and it is combined.
 
 ## Step 4: Signal Quality Assessment
