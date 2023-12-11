@@ -25,6 +25,10 @@ Moving on to the next step, begin by reading the '02.wav' audio file and then ap
 
 ## Step 3: Data Processing
 In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processing according to the workflow depicted in the figure.
+<div align="center">
+  <img src="https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/flowchart.png">
+</div>
+
 
 The first step involves calculating the noise removal rate (NRR) for each harmonic to evaluate the level of noise. The primary harmonic is then determined based on the one with the lowest NRR. Next, the suitable window length for each noise area of the primary harmonic is determined, and kernel function enhancement is performed. Finally, the longest signal segment of each noise interval in the primary harmonic is searched for among other harmonics, and it is combined.
 
