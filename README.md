@@ -25,9 +25,7 @@ Moving on to the next step, begin by reading the '02.wav' audio file and then ap
 
 ## Step 3: Data Processing
 In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processing according to the workflow depicted in the figure.
-<div align="center">
-  <img src="https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/flowchart.png">
-</div>
+
 
 
 ![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/flowchart.png "Workflow of AWHR")
