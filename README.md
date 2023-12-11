@@ -1,23 +1,31 @@
 # About
-This repository contains the ENF-STH short audio dataset, which was collected around Wuhan University. In addition, the repository provides  Matlab programs for extracting and estimating ENF, as well as a display of the corresponding visualization effects. These resources can help you better understand and utilize this audio dataset. More information on:xxxxx.
+This repository contains the ENF-STH audio dataset containing short-contaminated ENF signals, the corresponding reference and one-day reference, which was collected around Wuhan University. In addition, the repository provides  Matlab programs for extracting and estimating ENF, as well as a display of the corresponding visualization effects. These resources can help you better understand and utilize this audio dataset.
 # ENF-STH Dataset
-* Recording location: : Restaurants, playground, gymnasium, parking lot, square, library and lawn.
+* Recording location: Restaurants, playground, gymnasium, parking lot, square, library and lawn.
 * Environment diversity: day/night, interior/exterior.
 * Recording device: recording pens, smartphones, tablets, laptops, a total of ten types of devices.
-* Duration: 1~10 minutes
+* Duration: 2~10 minutes
 * Format: PCM WAVE
 * Quantization depth: 16-bit
 * Channel: mono
-* Sampling frequencuy: 8000 Hz (400 Hz for reference data)
+* Sampling frequency: 8000 Hz (400 Hz for reference data)
 * Category:
 * enf_audio: "01~40.wav" 40 real-world recordings with captured ENF.
 * ref_audio: "ref_01~ref_40.wav" the corresponding 40 reference ENF (noise-free, same duration) obtained from power main.
 * ref_one_day: the corresponding one-day (24 hours) reference ENF for the 40 recordings. "3-5,23.wav" means "03.wav", "04.wav", "05.wav" and "23.wav" in enf_audio folder are recorded within the same day.
 # Note about the Ground-Truth 
-The ground-truth matched location (the lag that corresponding to the true timestamp) within the one day reference can be obtained by matching the noise-free ref files with the corresponding one day ref. For example, we can match "ref_05.wav" in "ref_audio" folder within "3-5,23.wav" in "ref_one_day" folder, and the matched lag index is the "ground truth" timestamp for recording "05.wav" in "enf_audio" folder, meaning that "05.wav" should be matched at the same or a very close lag index in "3-5,23.wav". Both MSE and CC can be used for the matching criterion as long as the recording and ref are matched using the same criterion.It should be noted here that due to equipment reasons, some data have vertical deviations and require manual adjustment.The error caused by the device can be calculated by calculating the average vertical deviation between the extracted ENF signal and the reference signal.
+The ground-truth matched location (the lag that corresponds to the true timestamp) within the one-day reference can be obtained by matching the noise-free ref files with the corresponding one-day ref. For example, we can match "ref_05.wav" in "ref_audio" folder within "3-5,23.wav" in "ref_one_day" folder, and the matched lag index is the "ground truth" timestamp for recording "05.wav" in "enf_audio" folder, meaning that "05.wav" should be matched at the same or a very close lag index in "3-5,23.wav". Both MSE and CC can be used for the matching criterion as long as the recording and ref are matched using the same criterion.
 # Matlab Programs
-It contains our adaptive-window-based harmonic reconbination method, which is effective in short-contaminated audio.
-xxxxxxxxxxx
+It contains our adaptive-window-based harmonic recombination (AWHR) method, which is effective in short-contaminated audio. Here we provide the steps on how to use AWHR to process ENF signals.
+
+#Step 1: Data Preparation
+Firstly, it is necessary to prepare audio files with ENF signals. In addition, to further verify the processing effect of the signal, it is necessary to prepare corresponding reference signals and a reference database for a period of time. Taking the data in ENF-STH as an example, we can use '02.wav' in the 'enf_audio' folder, 'ref_02.wav' in the 'ref_audio' folder, and '2,19, 21, 24.wav' in the 'ref_one_day' folder.
+
+#Step 2: Data Preprocessing
+
+
+an example of the process of using AWHR to process signal in ENF-STH. 
+
 in comparison with the following existing work
 * Robust filtering algorithm (RFA) [1],
 * Harmonic robust filtering algorithm (HRFA) and graph-based harmonic selection algorithm (GHSA) [2],
