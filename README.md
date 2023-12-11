@@ -47,7 +47,7 @@ Additionally, to showcase the superiority of our method, we compared it with the
 * Robust media time-stamping method by [S. Vatansever et al. 2022 IEEE SPL](https://ieeexplore.ieee.org/document/9882322/references#references),
 
 using real-world recordings from short-contaminated ENF-STH dataset. We've also provided a comparison effect diagram between the methods:
-
+![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/code_comprison.png "Comparison between existing methods and AWHR on 6 audios from ENF-STH")
 
 # Citation Information
 * ENF Enhancement
