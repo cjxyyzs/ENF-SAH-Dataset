@@ -43,8 +43,7 @@ In the figure provided, you can see a comparison graph of the estimated ENF and 
 
 To further validate the effectiveness of AWHR in practical applications, you could conduct timestamp verification on the estimated signal within one day. The comparison between the estimated signal from '02.wav' and the timestamp verification result is shown in the figure, which further illustrates the effectiveness of AWHR.
 
-![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github2.png "Timestamp on AWHR")
-<img src="https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github2.png" width="210px">
+![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github2.png "width="210px")
 
 Additionally, to showcase the superiority of our method, we compared it with the following existing work:
 * Robust filtering algorithm (RFA) [1],
