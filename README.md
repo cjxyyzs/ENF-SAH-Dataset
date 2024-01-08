@@ -28,7 +28,7 @@ In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processi
 
 
 
-![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/flowchart.png "Workflow of AWHR")
+![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/flowchart.png)
 
 
 
@@ -38,8 +38,8 @@ The first step involves calculating the noise removal rate (NRR) for each harmon
 In this step, you can test how AWHR affects ENF signals. To do this, CC and NRR are used as measurement criteria. CC between the ENF and the reference signal will tell you how correlated they are, while the NRR will determine how much effective information is contained in the ENF signal. 
 
 In the figure provided, you can see a comparison graph of the estimated ENF and reference signal after AWHR processing for '02.wav'. The graph also showcases the CC and NRR, which demonstrate the effectiveness of AWHR. 
-![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github1.png "Comparison on AWHR")
-
+![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github1.png)
+<img src="https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github1.png" width="210px">
 
 To further validate the effectiveness of AWHR in practical applications, you could conduct timestamp verification on the estimated signal within one day. The comparison between the estimated signal from '02.wav' and the timestamp verification result is shown in the figure, which further illustrates the effectiveness of AWHR.
 
