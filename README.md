@@ -19,7 +19,7 @@ The ground-truth matched location (the lag that corresponds to the true timestam
 It contains our adaptive-window-based harmonic recombination (AWHR) method, which is effective in short-contaminated audio. Here we provide the steps on how to use AWHR to process ENF signals.
 
 ## Step 1: Data Preparation
-To start with, the first step is to prepare audio files that contain ENF signals. Moreover, if you want to test the accuracy of the signal processing, you need to arrange corresponding reference signals and a reference database for a specific time period. Let's consider the data in ENF-STH as an example. You can utilize '02.wav' from the 'enf_audio' folder, 'ref_02.wav' from the 'ref_audio' folder, and '2,19, 21, 24.wav' from the 'ref_one_day' folder to get the desired results.
+To start with, the first step is to prepare audio files that contain ENF signals. Moreover, if you want to test the accuracy of the signal processing, you need to arrange corresponding reference signals and a reference database for a specific time. Let's consider the data in ENF-STH as an example. You can utilize '02.wav' from the 'enf_audio' folder, 'ref_02.wav' from the 'ref_audio' folder, and '2,19, 21, 24.wav' from the 'ref_one_day' folder to get the desired results.
 ## Step 2: Data Preprocessing
 Moving on to the next step, begin by reading the '02.wav' audio file and then applying bandpass filtering to eliminate any noise that falls outside of the frequency band. Furthermore, since the reference documents 'ref_02.wav' and '2,19, 21, 24.wav' do not have any noise, you can directly extract them using Short Time Fourier Transform (STFT).
 
@@ -37,8 +37,8 @@ The first step involves calculating the noise removal rate (NRR) for each harmon
 ## Step 4: Signal Quality Assessment
 In this step, you can test how AWHR affects ENF signals. To do this, CC and NRR are used as measurement criteria. CC between the ENF and the reference signal will tell you how correlated they are, while the NRR will determine how much effective information is contained in the ENF signal. 
 
-In the figure provided, you could see a comparison graph of the estimated enf and reference signal after AWHR processing for '02.wav'. The graph also showcases the CC and NRR, which demonstrate the effectiveness of AWHR. 
-![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github1.png "Comparison on AWHR")
+In the figure provided, you can see a comparison graph of the estimated ENF and reference signal after AWHR processing for '02.wav'. The graph also showcases the CC and NRR, which demonstrate the effectiveness of AWHR. 
+![github1.png](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github1.png "Comparison on AWHR")
 
 
 To further validate the effectiveness of AWHR in practical applications, you could conduct timestamp verification on the estimated signal within one day. The comparison between the estimated signal from '02.wav' and the timestamp verification result is shown in the figure, which further illustrates the effectiveness of AWHR.
@@ -50,7 +50,7 @@ Additionally, to showcase the superiority of our method, we compared it with the
 * Harmonic robust filtering algorithm (HRFA) and graph-based harmonic selection algorithm (GHSA) [2],
 * Robust media time-stamping method by [S. Vatansever et al. 2022 IEEE SPL](https://ieeexplore.ieee.org/document/9882322/references#references),
 
-using real-world recordings from short-contaminated ENF-STH dataset. We've also provided a comparison effect diagram between the methods:
+using real-world recordings from the ENF-STH dataset. We've also provided a comparison effect diagram between the methods:
 ![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/code_comprison.png "Comparison between existing methods and AWHR on 6 audios from ENF-STH")
 
 # Citation Information
