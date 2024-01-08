@@ -26,10 +26,9 @@ Moving on to the next step, begin by reading the '02.wav' audio file and then ap
 ## Step 3: Data Processing
 In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processing according to the workflow depicted in the figure.
 
-
-
-![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/flowchart.png)
-
+<div align=center>
+<img src="./figures/flowchart.png" width="50%" height="40%"/>
+</div>
 
 
 The first step involves calculating the noise removal rate (NRR) for each harmonic to evaluate the level of noise. The primary harmonic is then determined based on the one with the lowest NRR. Next, the suitable window length for each noise area of the primary harmonic is determined, and kernel function enhancement is performed. Finally, the longest signal segment of each noise interval in the primary harmonic is searched for among other harmonics, and it is combined.
@@ -38,13 +37,16 @@ The first step involves calculating the noise removal rate (NRR) for each harmon
 In this step, you can test how AWHR affects ENF signals. To do this, CC and NRR are used as measurement criteria. CC between the ENF and the reference signal will tell you how correlated they are, while the NRR will determine how much effective information is contained in the ENF signal. 
 
 In the figure provided, you can see a comparison graph of the estimated ENF and reference signal after AWHR processing for '02.wav'. The graph also showcases the CC and NRR, which demonstrate the effectiveness of AWHR. 
-![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github1.png)
-<img src="https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github1.png" width="210px" align=center />
+<div align=center>
+<img src="./figures/github1.png" width="50%"/>
+</div>
 
 To further validate the effectiveness of AWHR in practical applications, you could conduct timestamp verification on the estimated signal within one day. The comparison between the estimated signal from '02.wav' and the timestamp verification result is shown in the figure, which further illustrates the effectiveness of AWHR.
 
-![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/github2.png)
 
+<div align=center>
+<img src="./figures/github2.png" width="50%"/>
+</div>
 Additionally, to showcase the superiority of our method, we compared it with the following existing work:
 * Robust filtering algorithm (RFA) [1],
 * Harmonic robust filtering algorithm (HRFA) and graph-based harmonic selection algorithm (GHSA) [2],
