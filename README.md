@@ -33,14 +33,14 @@ In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processi
 
 
 ## Step 4: Signal Quality Assessment
-In this step, you can test how AWHR affects ENF signals. To do this, CC and NRR are used as measurement criteria. CC between the ENF and the reference signal will tell you how correlated they are, while the NRR will determine how much effective information is contained in the ENF signal. 
+In this step, you can test the effectiveness of AWHR on ENF-SAH. To do this, CC and NRR are used as performance criteria. CC between the ENF and the reference signal will tell you how correlated they are, while the NRR will determine how much noisy samples is contained in the ENF signal. 
 
 In the figure provided, you can see a comparison graph of the estimated ENF and reference signal after AWHR processing for '02.wav'. The graph also showcases the CC and NRR, which demonstrate the effectiveness of AWHR. 
 <div align=center>
 <img src="./figures/github1.png" width="50%"/>
 </div>
 
-To further validate the effectiveness of AWHR in practical applications, you could conduct timestamp verification on the estimated signal within one day. The comparison between the estimated signal from '02.wav' and the timestamp verification result is shown in the figure, which further illustrates the effectiveness of AWHR.
+To further validate the effectiveness of AWHR in practical applications, you could conduct timestamp verification on the estimated signal within one day. The comparison between the estimated signal from '02.wav' and the timestamp verification result is shown in the following figure, which further illustrates the effectiveness of AWHR.
 
 
 <div align=center>
