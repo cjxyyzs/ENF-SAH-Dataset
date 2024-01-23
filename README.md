@@ -47,6 +47,7 @@ To further validate the effectiveness of AWHR in practical applications, you cou
 <img src="./figures/github2.png" width="50%"/>
 </div>
 Additionally, to showcase the superiority of our method, we compared it with the following existing work:
+
 * Robust filtering algorithm (RFA) [1],
 * Harmonic robust filtering algorithm (HRFA) and graph-based harmonic selection algorithm (GHSA) [2],
 * Robust media time-stamping method by [S. Vatansever et al. 2022 IEEE SPL](https://ieeexplore.ieee.org/document/9882322/references#references),
