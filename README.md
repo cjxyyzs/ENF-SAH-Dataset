@@ -27,7 +27,7 @@ Moving on to the next step, begin by reading the '02.wav' audio file and then ap
 In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processing according to the workflow depicted in the figure.  The matlab program is given in the floder "AWHR".
 
 <div align=center>
-<img src="./figures/flowchart1.png" width="100%" />
+<img src="./figures/flowchart1.png" width="60%" />
 </div>
 
 
