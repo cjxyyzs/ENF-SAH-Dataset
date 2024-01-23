@@ -30,7 +30,7 @@ It contains our adaptive-window-based harmonic recombination (AWHR) method, whic
   In this pivotal step, the ENF harmonic signals obtained in Step 2 undergo the AWHR processing, following the workflow illustrated in the accompanying figure. You can find the MATLAB program necessary for this processing in the "AWHR" folder.By following these steps, you'll be able to effectively utilize AWHR to process ENF signals, enhancing the quality of your audio data.
 
 <div align=center>
-<img src="./figures/flowchart.svg" width="60%" />
+<img src="./figures/flowchart.svg" width="80%" />
 </div>
 
 
@@ -41,7 +41,7 @@ It contains our adaptive-window-based harmonic recombination (AWHR) method, whic
 
   In the figure below, you'll find a comparative graph displaying the estimated ENF signal alongside the reference signal after AWHR processing for '02.wav'. This graph also shows the CC and NRR values, effectively illustrating the proficiency of AWHR.
 <div align=center>
-<img src="./figures/github1.png" width="40%"/>
+<img src="./figures/github1.png" width="30%"/>
 </div>
 
 
@@ -49,7 +49,7 @@ It contains our adaptive-window-based harmonic recombination (AWHR) method, whic
 
  
 <div align=center>
-<img src="./figures/github2.png" width="40%"/>
+<img src="./figures/github2.png" width="30%"/>
 </div>
 
   Additionally, to showcase the superiority of our method, we conducted comparisons with the following existing works:
