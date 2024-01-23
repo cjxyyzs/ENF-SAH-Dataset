@@ -3,7 +3,7 @@ This repository contains the ENF-SAH audio dataset containing considerably conta
 # ENF-SAH Dataset
 * Recording location: Restaurants, playground, gymnasium, parking lot, square, library and lawn.
 * Environment diversity: day/night, interior/exterior.
-* Recording device: recording pens, smartphones, tablets, laptops, a total of ten types of devices.
+* Recording device: Redmi K40, Aigo R6633, iPad Air4, Tascam DR-07x, Philips VTR7100, and iPhone 13.
 * Duration: 2~10 minutes
 * Format: PCM WAVE
 * Quantization depth: 16-bit
