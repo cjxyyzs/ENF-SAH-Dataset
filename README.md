@@ -1,5 +1,5 @@
 # About
-This repository contains the ENF-SAH audio dataset containing short-contaminated ENF signals, the corresponding reference and one-day reference, which was collected around Wuhan University. In addition, the repository provides  Matlab programs for extracting and estimating ENF, as well as a display of the corresponding visualization effects. These resources can help you better understand and utilize this audio dataset.
+This repository contains the ENF-SAH audio dataset containing considerably contaminated short ENF signals, the corresponding reference and one-day reference, which was collected around Wuhan University. In addition, the repository provides  Matlab programs for extracting and estimating ENF, as well as a display of the corresponding visualization effects. These resources can help you better understand and utilize this audio dataset.
 # ENF-SAH Dataset
 * Recording location: Restaurants, playground, gymnasium, parking lot, square, library and lawn.
 * Environment diversity: day/night, interior/exterior.
