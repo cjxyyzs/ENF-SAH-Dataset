@@ -20,15 +20,14 @@ It contains our adaptive-window-based harmonic recombination (AWHR) method, whic
 
 * Step 1: Data Preparation
   
- To begin, you'll need to gather the necessary audio files that include ENF signals, corresponding reference signals, and a reference database for a specific time to facilitate later experimental verification. For instance, you can make use of '02.wav' from the 'enf_audio' folder, 'ref_02.wav' from the 'ref_audio' folder, and '2,19, 21, 24.wav' from the 'ref_one_day' folder to achieve the desired results.
+    To begin, you'll need to gather the necessary audio files that include ENF signals, corresponding reference signals, and a reference database for a specific time to facilitate later experimental verification. For instance, you can make use of '02.wav' from the 'enf_audio' folder, 'ref_02.wav' from the 'ref_audio' folder, and '2,19, 21, 24.wav' from the 'ref_one_day' folder to achieve the desired results.
 * Step 2: Data Preprocessing
 
- Moving on to the next stage, start by reading the '02.wav' audio file. Subsequently, apply bandpass filtering to remove any noise that falls outside the designated frequency band. Additionally, since the reference files 'ref_02.wav' and '2,19, 21, 24.wav' are noise-free, you can directly extract information from them using the Short Time Fourier Transform (STFT) technique.
+   Moving on to the next stage, start by reading the '02.wav' audio file. Subsequently, apply bandpass filtering to remove any noise that falls outside the designated frequency band. Additionally, since the reference files 'ref_02.wav' and '2,19, 21, 24.wav' are noise-free, you can directly extract information from them using the Short Time Fourier Transform (STFT) technique.
 
 * Step 3: Data Processing
 
- In this pivotal step, the ENF harmonic signals obtained in Step 2 undergo the AWHR processing, following the workflow illustrated in the accompanying figure. You can find the MATLAB program necessary for this processing in the "AWHR" folder.
- By following these steps, you'll be able to effectively utilize AWHR to process ENF signals, enhancing the quality of your audio data.
+  In this pivotal step, the ENF harmonic signals obtained in Step 2 undergo the AWHR processing, following the workflow illustrated in the accompanying figure. You can find the MATLAB program necessary for this processing in the "AWHR" folder.By following these steps, you'll be able to effectively utilize AWHR to process ENF signals, enhancing the quality of your audio data.
 
 <div align=center>
 <img src="./figures/flowchart.svg" width="60%" />
@@ -38,25 +37,28 @@ It contains our adaptive-window-based harmonic recombination (AWHR) method, whic
 
 * Step 4: Signal Quality Assessment
 
-This step allows you to evaluate the performance of AWHR on ENF-SAH. To achieve this, CC and NRR are employed as performance metrics. CC quantifies the correlation between the ENF and the reference signal, indicating their level of correlation. On the other hand, NRR assesses the presence of noisy samples within the ENF signal, providing insights about its overall quality.
-In the figure below, you'll find a comparative graph displaying the estimated ENF signal alongside the reference signal after AWHR processing for '02.wav'. This graph also shows the CC and NRR values, effectively illustrating the proficiency of AWHR.
-  
+  This step allows you to evaluate the performance of AWHR on ENF-SAH. To achieve this, CC and NRR are employed as performance metrics. CC quantifies the correlation between the ENF and the reference signal, indicating their level of correlation. On the other hand, NRR assesses the presence of noisy samples within the ENF signal, providing insights about its overall quality.
+
+  In the figure below, you'll find a comparative graph displaying the estimated ENF signal alongside the reference signal after AWHR processing for '02.wav'. This graph also shows the CC and NRR values, effectively illustrating the proficiency of AWHR.
 <div align=center>
 <img src="./figures/github1.png" width="40%"/>
 </div>
 
-To further validate the practical efficacy of AWHR, you can perform timestamp verification on the estimated signal within a single day. The comparison between the estimated signal derived from '02.wav' and the timestamp verification result is depicted in the following figure, offering further evidence of AWHR's effectiveness.
 
+  To further validate the practical efficacy of AWHR, you can perform timestamp verification on the estimated signal within a single day. The comparison between the estimated signal derived from '02.wav' and the timestamp verification result is depicted in the following figure, offering further evidence of AWHR's effectiveness.
+
+ 
 <div align=center>
 <img src="./figures/github2.png" width="40%"/>
 </div>
-Additionally, to showcase the superiority of our method, we conducted comparisons with the following existing works:
+
+  Additionally, to showcase the superiority of our method, we conducted comparisons with the following existing works:
 
 * Robust filtering algorithm (RFA) [1],
 * Harmonic robust filtering algorithm (HRFA) and graph-based harmonic selection algorithm (GHSA) [2],
 * Robust media time-stamping (RMTS) method by [S. Vatansever et al. 2022 IEEE SPL](https://ieeexplore.ieee.org/document/9882322/references#references),
 
-using real-world recordings from the ENF-SAH dataset. These comparisons were performed using real-world recordings from the ENF-SAH dataset. An illustrative comparison diagram between the methods is provided below for clarity.
+  using real-world recordings from the ENF-SAH dataset. These comparisons were performed using real-world recordings from the ENF-SAH dataset. An illustrative comparison diagram between the methods is provided below for clarity.
 ![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/code_comprison.png "Comparison between existing methods and AWHR on 6 audios from ENF-STH")
 
 # Citation Information
