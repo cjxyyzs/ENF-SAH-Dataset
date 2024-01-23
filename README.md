@@ -24,14 +24,13 @@ To start with, the first step is to prepare audio files that contain ENF signals
 Moving on to the next step, begin by reading the '02.wav' audio file and then applying bandpass filtering to eliminate any noise that falls outside of the frequency band. Furthermore, since the reference documents 'ref_02.wav' and '2,19, 21, 24.wav' do not have any noise, you can directly extract them using Short Time Fourier Transform (STFT).
 
 ## Step 3: Data Processing
-In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processing according to the workflow depicted in the figure.
+In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processing according to the workflow depicted in the figure.  The matlab program is given in the floder "AWHR".
 
 <div align=center>
-<img src="./figures/flowchart.png" width="50%" height="40%"/>
+<img src="./figures/flowchart1.png" width="50%" height="40%"/>
 </div>
 
 
-The first step involves calculating the noise removal rate (NRR) for each harmonic to evaluate the level of noise. The primary harmonic is then determined based on the one with the lowest NRR. Next, the suitable window length for each noise area of the primary harmonic is determined, and kernel function enhancement is performed. Finally, the longest signal segment of each noise interval in the primary harmonic is searched for among other harmonics, and it is combined.
 
 ## Step 4: Signal Quality Assessment
 In this step, you can test how AWHR affects ENF signals. To do this, CC and NRR are used as measurement criteria. CC between the ENF and the reference signal will tell you how correlated they are, while the NRR will determine how much effective information is contained in the ENF signal. 
