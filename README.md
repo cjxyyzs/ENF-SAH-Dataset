@@ -52,7 +52,7 @@ Additionally, to showcase the superiority of our method, we compared it with the
 * Harmonic robust filtering algorithm (HRFA) and graph-based harmonic selection algorithm (GHSA) [2],
 * Robust media time-stamping method by [S. Vatansever et al. 2022 IEEE SPL](https://ieeexplore.ieee.org/document/9882322/references#references),
 
-using real-world recordings from the ENF-STH dataset. We've also provided a comparison effect diagram between the methods:
+using real-world recordings from the ENF-SAH dataset. We've also provided a comparison effect diagram between the methods:
 ![image text](https://github.com/cjxyyzs/ENF-STH-Dataset/blob/main/figures/code_comprison.png "Comparison between existing methods and AWHR on 6 audios from ENF-STH")
 
 # Citation Information
