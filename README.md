@@ -40,14 +40,14 @@ In this step, you can access the performance of AWHR on ENF-SAH. To do this, CC 
 
 In the figure below, you can see a comparison graph of the estimated ENF and reference signal after AWHR processing for '02.wav'. The graph also showcases the CC and NRR, which demonstrate the effectiveness of AWHR. 
 <div align=center>
-<img src="./figures/github1.png" width="50%"/>
+<img src="./figures/github1.png" width="40%"/>
 </div>
 
 To further validate the effectiveness of AWHR in practical applications, you could conduct timestamp verification on the estimated signal within one day. The comparison between the estimated signal from '02.wav' and the timestamp verification result is shown in the following figure, which further illustrates the effectiveness of AWHR.
 
 
 <div align=center>
-<img src="./figures/github2.png" width="50%"/>
+<img src="./figures/github2.png" width="40%"/>
 </div>
 Additionally, to showcase the superiority of our method, we compared it with the following existing work:
 
