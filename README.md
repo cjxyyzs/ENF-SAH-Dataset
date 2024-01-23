@@ -35,7 +35,7 @@ In this step, the ENF harmonic signals extracted in step 2 undergo AWHR processi
 
 
 
-## Step 4: Signal Quality Assessment
+* Step 4: Signal Quality Assessment
 In this step, you can access the performance of AWHR on ENF-SAH. To do this, CC and NRR are used as performance criteria. CC measures  the correlation between the ENF and the reference signal, indicating their level of correlation. NRR gauges the presence of noisy samples in the ENF signal, providing insights into its overall quality.
 
 In the figure below, you can see a comparison graph of the estimated ENF and reference signal after AWHR processing for '02.wav'. The graph also showcases the CC and NRR, which demonstrate the effectiveness of AWHR. 
