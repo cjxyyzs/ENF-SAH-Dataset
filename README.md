@@ -66,8 +66,12 @@ It contains our adaptive-window-based harmonic recombination (AWHR) method, whic
   >\[1] G. Hua and H. Zhang, "ENF Signal Enhancement in Audio Recordings," in IEEE Transactions on Information Forensics and Security, vol. 15, pp. 1868-1878, 2020.
   
   >\[2] G. Hua, H. Liao, H. Zhang, D. Ye and J. Ma, "Robust ENF Estimation Based on Harmonic Enhancement and Maximum Weight Clique," in IEEE Transactions on Information Forensics and Security, vol. 16, pp. 3874-3887, 2021.
-* Related work
-  
-  
+* Related works
+  > \[4] G. Hua, "Error analysis of forensic ENF matching," in Proc. 2018 IEEE International Workshop on Information Forensics and Security (WIFS), pp. 1-7, Hong Kong, Dec. 2018. [link](https://ieeexplore.ieee.org/document/8630786)<br>
+  > \[5] G. Hua, G. Bi, and V. L. L. Thing, "On practical issues of electric network frequency based audio forensics," IEEE Access, vol. 5, pp. 20640-20651, Oct. 2017. [link](https://ieeexplore.ieee.org/document/7807225)<br>
+  > \[6] G. Hua, Y. Zhang, J. Goh, and V. L. L. Thing, "Audio authentication by exploring the absolute error map of the ENF signals," IEEE Trans. Inf. Forensics Security, vol. 11, no. 5, pp. 1003-1016, May 2016. [link](https://ieeexplore.ieee.org/document/7378470)<br>
+  > \[7] G. Hua, J. Goh, and V. L. L. Thing, “A dynamic matching algorithm for audio timestamp identification using the ENF criterion,” IEEE Trans. Inf. Forensics Security, vol. 9, no. 7, pp. 1045-1055, Jul. 2014. [link](https://ieeexplore.ieee.org/document/6808537)<br>
+  > \[8]H. Liao, G. Hua and H. Zhang, "ENF Detection in Audio Recordings via Multi-Harmonic Combining," IEEE Signal Processing Letters, vol. 28, pp. 1808-1812, 2021. [link](https://ieeexplore.ieee.org/document/9528023)
+
 
   
