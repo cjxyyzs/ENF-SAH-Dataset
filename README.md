@@ -1,5 +1,5 @@
 # About
-This repository comprises the ENF-SAH audio dataset, encompassing considerably contaminated short ENF signals, along with their corresponding reference and one-day reference datasets, collected on the campus of Wuhan University. In addition, the repository provides  Matlab programs for extracting and estimating ENF, as well as a display of the corresponding visualization results. These resources can help you better understand and utilize this audio dataset.
+This repository comprises the ENF-SAH audio dataset, encompassing considerably contaminated short ENF signals, along with their corresponding reference and one-day reference datasets, collected on the campus of Wuhan University. 
 # ENF-SAH Dataset
 * Recording location: restaurants, playground, gymnasium, parking lot, square, library and lawn.
 * Environment diversity: day/night, interior/exterior.
@@ -23,7 +23,8 @@ The ground-truth matched location (the lag that corresponds to the true timestam
   > \[4] G. Hua, G. Bi, and V. L. L. Thing, "On practical issues of electric network frequency based audio forensics," IEEE Access, vol. 5, pp. 20640-20651, Oct. 2017. [link](https://ieeexplore.ieee.org/document/7807225)<br>
   > \[5] G. Hua, Y. Zhang, J. Goh, and V. L. L. Thing, "Audio authentication by exploring the absolute error map of the ENF signals," IEEE Trans. Inf. Forensics Security, vol. 11, no. 5, pp. 1003-1016, May 2016. [link](https://ieeexplore.ieee.org/document/7378470)<br>
   > \[6] G. Hua, J. Goh, and V. L. L. Thing, “A dynamic matching algorithm for audio timestamp identification using the ENF criterion,” IEEE Trans. Inf. Forensics Security, vol. 9, no. 7, pp. 1045-1055, Jul. 2014. [link](https://ieeexplore.ieee.org/document/6808537)<br>
-  > \[7]H. Liao, G. Hua and H. Zhang, "ENF Detection in Audio Recordings via Multi-Harmonic Combining," IEEE Signal Processing Letters, vol. 28, pp. 1808-1812, 2021. [link](https://ieeexplore.ieee.org/document/9528023)
+  > \[7]H. Liao, G. Hua and H. Zhang, "ENF Detection in Audio Recordings via Multi-Harmonic Combining," IEEE Signal Processing Letters, vol. 28, pp. 1808-1812, 2021. [link](https://ieeexplore.ieee.org/document/9528023)<br>
+  > \[8]https://github.com/ghua-ac/ENF-WHU-Dataset
 
 
   
