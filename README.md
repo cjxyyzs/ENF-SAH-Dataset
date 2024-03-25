@@ -1,6 +1,5 @@
 # About
 Welcome to the Electric Network Frequency short audio harmonic (ENF-SAH) dataset repository. This unique dataset, curated at **Wuhan University**, encompasses a series of short Electric Network Frequency (ENF) recordings, significantly influenced by environmental disturbances. It presents a realistic challenge for audio processing, particularly in urban outdoor environments teeming with noise.
-
 # ENF-SAH Dataset
 - **Recording location**: restaurants, playground, gymnasium, parking lot, square, library and lawn.
 - **Environment diversity**: day/night, interior/exterior.
@@ -71,13 +70,15 @@ The ground-truth matched location (the lag that corresponds to the true timestam
 </table>
 
 # Related works
- >\[1] G. Hua and H. Zhang, "ENF Signal Enhancement in Audio Recordings," in IEEE Transactions on Information Forensics and Security, vol. 15, pp. 1868-1878, 2020.[link](https://ieeexplore.ieee.org/abstract/document/8894138)<br>
-  >\[2] G. Hua, H. Liao, H. Zhang, D. Ye and J. Ma, "Robust ENF Estimation Based on Harmonic Enhancement and Maximum Weight Clique," in IEEE Transactions on Information Forensics and Security, vol. 16, pp. 3874-3887, 2021.[link](https://ieeexplore.ieee.org/abstract/document/9494518)<br>
-  > \[3] G. Hua, "Error analysis of forensic ENF matching," in Proc. 2018 IEEE International Workshop on Information Forensics and Security (WIFS), pp. 1-7, Hong Kong, Dec. 2018. [link](https://ieeexplore.ieee.org/document/8630786)<br>
-  > \[4] G. Hua, G. Bi, and V. L. L. Thing, "On practical issues of electric network frequency based audio forensics," IEEE Access, vol. 5, pp. 20640-20651, Oct. 2017. [link](https://ieeexplore.ieee.org/document/7807225)<br>
-  > \[5] G. Hua, Y. Zhang, J. Goh, and V. L. L. Thing, "Audio authentication by exploring the absolute error map of the ENF signals," IEEE Trans. Inf. Forensics Security, vol. 11, no. 5, pp. 1003-1016, May 2016. [link](https://ieeexplore.ieee.org/document/7378470)<br>
-  > \[6] G. Hua, J. Goh, and V. L. L. Thing, “A dynamic matching algorithm for audio timestamp identification using the ENF criterion,” IEEE Trans. Inf. Forensics Security, vol. 9, no. 7, pp. 1045-1055, Jul. 2014. [link](https://ieeexplore.ieee.org/document/6808537)<br>
-  > \[7]H. Liao, G. Hua and H. Zhang, "ENF Detection in Audio Recordings via Multi-Harmonic Combining," IEEE Signal Processing Letters, vol. 28, pp. 1808-1812, 2021. [link](https://ieeexplore.ieee.org/document/9528023)<br>
+- **ENF Detection**:
+  >\[1] G. Hua, H. Liao, Q. Wang, H. Zhang and D. Ye, "Detection of Electric Network Frequency in Audio Recordings–From Theory to Practical Detectors," in IEEE Transactions on Information Forensics and Security, vol. 16, pp. 236-248, 2021.[link](https://ieeexplore.ieee.org/document/9143185)<br>
+  >\[2] H. Liao, G. Hua and H. Zhang, "ENF Detection in Audio Recordings via Multi-Harmonic Combining," in IEEE Signal Processing Letters, vol. 28, pp. 1808-1812, 2021.[link](https://ieeexplore.ieee.org/document/9528023)<br>
+- **ENF Enhancement**:
+  >\[3] G. Hua and H. Zhang, "ENF Signal Enhancement in Audio Recordings," in IEEE Transactions on Information Forensics and Security, vol. 15, pp. 1868-1878, 2020.[link](https://ieeexplore.ieee.org/abstract/document/8894138)<br>
+  >\[4] G. Hua, H. Liao, H. Zhang, D. Ye and J. Ma, "Robust ENF Estimation Based on Harmonic Enhancement and Maximum Weight Clique," in IEEE Transactions on Information Forensics and Security, vol. 16, pp. 3874-3887, 2021.[link](https://ieeexplore.ieee.org/abstract/document/9494518)<br>
+- **ENF Matching**:  
+  > \[5] G. Hua, "Error analysis of forensic ENF matching," in Proc. 2018 IEEE International Workshop on Information Forensics and Security (WIFS), pp. 1-7, Hong Kong, Dec. 2018. [link](https://ieeexplore.ieee.org/document/8630786)<br>
+   > \[6] G. Hua, J. Goh, and V. L. L. Thing, “A dynamic matching algorithm for audio timestamp identification using the ENF criterion,” IEEE Trans. Inf. Forensics Security, vol. 9, no. 7, pp. 1045-1055, Jul. 2014. [link](https://ieeexplore.ieee.org/document/6808537)<br>
 
 
   
